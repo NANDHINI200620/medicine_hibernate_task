@@ -59,7 +59,7 @@ public class PharmacyMain {
 
         sc.close();
 
-        // 🔥 Very Important – Close SessionFactory
+    
         HibernateUtil.shutdown();
     }
 }
